@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-// import Buttons from './Components/Buttons';
+import Buttons from './Components/Buttons';
 // import Output from './Components/Output';
 
 class App extends React.Component {
@@ -116,8 +116,8 @@ class App extends React.Component {
     return (
       <div className='calculator-grid'>
         test text
-        {/* <Output previous={this.state.previous} operation={this.state.operation} current={this.state.current} />
-        <Buttons click={this.buttonClickedHandler} /> */}
+        {/* <Output previous={this.state.previous} operation={this.state.operation} current={this.state.current} /> */}
+        <Buttons click={this.buttonClickedHandler} />
       </div>
 
     );
