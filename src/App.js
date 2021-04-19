@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Buttons from './Components/Buttons';
-// import Output from './Components/Output';
+import Output from './Components/Output';
 
 class App extends React.Component {
 
@@ -115,8 +115,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='calculator-grid'>
-        test text
-        {/* <Output previous={this.state.previous} operation={this.state.operation} current={this.state.current} /> */}
+        <Output previous={this.state.previous} operation={this.state.operation} current={this.state.current} />
         <Buttons click={this.buttonClickedHandler} />
       </div>
 
